@@ -1,5 +1,5 @@
 
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 
@@ -9,6 +9,8 @@ const Login = () => {
 const {singIn} = useContext(AuthContext);
 const location = useLocation()
 const navgate = useNavigate()
+const [registerError, setRegisterError] = useState('')
+const [success, setSuccess] = useState('')
 
     const handleLogin = (e) =>{
         e.preventDefault();
@@ -17,16 +19,25 @@ const navgate = useNavigate()
         const email = form.get('email');
         const password = form.get('password');
         console.log(email, password);
+        setRegisterError('')
+        setSuccess('')
 
 
         singIn(email,password)
         .then(result =>{
           console.log(result.user);
-          navgate(location?.state ? location.state : "/");
+          setSuccess('User Login Successfully')
+          navgate(location?.state ? location.state : "/login");
+          
+          
+          
         })
 
         .catch(error =>{
           console.error(error);
+          setRegisterError(error.message)
+         
+       
         })
 
 
@@ -71,6 +82,13 @@ const navgate = useNavigate()
         </div>
       </form>
       <p className="text-center mt-4 text-black">Do not have account? <Link className="text-blue-700 font-bold" to="/register">Register</Link></p>
+      {
+        registerError && <p className='text-center mt-2 text-red-700'>{registerError}</p>
+      }
+
+{
+    success && <p className='text-center mt-2 text-green-500'>{success}</p>
+      }
     </div>
   );
 };

@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 
+
 const Register = () => {
   const { createUser } = useContext(AuthContext);
   const [registerError, setRegisterError] = useState("");
@@ -35,6 +36,7 @@ const Register = () => {
       .then((result) => {
         console.log(result.user);
         setSuccess("User Register Successfully");
+       
       })
 
       .catch((error) => {

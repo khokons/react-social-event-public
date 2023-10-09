@@ -3,7 +3,7 @@
 
 
 # Live link ^
-coming soon------
+ https://react-social-events.web.app
 
 
 # Add at least 5 Project features

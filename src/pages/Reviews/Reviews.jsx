@@ -12,7 +12,7 @@ const Reviews = () => {
           <div className="flex w-full flex-col gap-0.5">
             <div className="flex items-center justify-between">
               <h5 className="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                Tania Andrew
+                Mahmud-ul
               </h5>
               <div className="5 flex items-center gap-0">
                 <div className="rating">
@@ -45,16 +45,14 @@ const Reviews = () => {
                 </div>
               </div>
             </div>
-            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-              Frontend Lead @ Google
+            <p className="block font-sans text-base font-extrabold leading-relaxed text-blue-gray-900 antialiased">
+              Birthday Review
             </p>
           </div>
         </div>
         <div className="mb-6 p-0">
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-            I found solution to all my design needs from Creative Tim. I use
-            them as a freelancer in my hobby projects for fun! And its really
-            affordable, very humble guys
+          Thank you so much for the most incredible event for Scarlette’s 3rdbirthday. The day was amazing and so brilliantly organised. We enjoyed just being able to sit back and watch our daughter enjoy every single moment rather than have to run around like we have in previous years.
           </p>
         </div>
       </div>
@@ -69,7 +67,7 @@ const Reviews = () => {
           <div className="flex w-full flex-col gap-0.5">
             <div className="flex items-center justify-between">
               <h5 className="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                Tania Andrew
+                Bristi
               </h5>
               <div className="5 flex items-center gap-0">
                 <div className="rating">
@@ -103,16 +101,15 @@ const Reviews = () => {
                 </div>
               </div>
             </div>
-            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-              Frontend Lead @ Google
+            <p className="block font-sans font-extrabold text-base  leading-relaxed text-blue-gray-900 antialiased">
+              Wedding Review
             </p>
           </div>
         </div>
         <div className="mb-6 p-0">
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-            I found solution to all my design needs from Creative Tim. I use
-            them as a freelancer in my hobby projects for fun! And its really
-            affordable, very humble guys
+          I want to thank you so much for all of your help coordinating the wedding! Everything went amazingly well that day and I cannot express how appreciative we are for everything that you guys did for us! You have a hard job and you both do it very well! I will be sure to recommend you to others in the future!
+
           </p>
         </div>
       </div>
@@ -161,16 +158,14 @@ const Reviews = () => {
                 </div>
               </div>
             </div>
-            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-              Frontend Lead @ Google
+            <p className="block font-sans text-base font-extrabold leading-relaxed text-blue-gray-900 antialiased">
+             Anniversary Review
             </p>
           </div>
         </div>
         <div className="mb-6 p-0">
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-            I found solution to all my design needs from Creative Tim. I use
-            them as a freelancer in my hobby projects for fun! And its really
-            affordable, very humble guys
+          Thank you for being a part of our special day. · We appreciate you coming to celebrate with us. · Our wedding was so special, and your presence
           </p>
         </div>
       </div>
@@ -185,7 +180,7 @@ const Reviews = () => {
           <div className="flex w-full flex-col gap-0.5">
             <div className="flex items-center justify-between">
               <h5 className="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                Tania Andrew
+               Arnob Hasan
               </h5>
               <div className="5 flex items-center gap-0">
                 <div className="rating">
@@ -218,16 +213,14 @@ const Reviews = () => {
                 </div>
               </div>
             </div>
-            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-              Frontend Lead @ Google
+            <p className="block font-sans text-base font-extrabold leading-relaxed text-blue-gray-900 antialiased">
+            Graduation Review
             </p>
           </div>
         </div>
         <div className="mb-6 p-0">
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-            I found solution to all my design needs from Creative Tim. I use
-            them as a freelancer in my hobby projects for fun! And its really
-            affordable, very humble guys
+          After you are showered with gifts, money, love, and support, show your gratitude with the perfect sayings for graduation thank you cards.
           </p>
         </div>
       </div>
@@ -242,7 +235,7 @@ const Reviews = () => {
           <div className="flex w-full flex-col gap-0.5">
             <div className="flex items-center justify-between">
               <h5 className="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                Tania Andrew
+                Khokon sarkar
               </h5>
               <div className="5 flex items-center gap-0">
                 <div className="rating">
@@ -278,8 +271,8 @@ const Reviews = () => {
                 </div>
               </div>
             </div>
-            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-              Frontend Lead @ Google
+            <p className="block font-sans text-base font-extrabold leading-relaxed text-blue-gray-900 antialiased">
+              Retirement Review
             </p>
           </div>
         </div>
@@ -336,8 +329,8 @@ const Reviews = () => {
                 </div>
               </div>
             </div>
-            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-              Frontend Lead @ Google
+            <p className="block font-sans text-base font-extrabold leading-relaxed text-blue-gray-900 antialiased">
+              Engagement review
             </p>
           </div>
         </div>

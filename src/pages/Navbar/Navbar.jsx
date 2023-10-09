@@ -1,10 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
-import defaultUser from "../../assets/user.png";
+
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
+  console.log(user)
 
   const handleLogOut = () => {
     logOut().then().catch();
@@ -31,7 +32,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar lg:bg-[#3F1D38] lg:text-white ">
+    <div className="navbar lg:bg-[#3F1D38] lg:text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -64,8 +65,13 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-          <div className="w-10 rounded-full">
-            <img src={defaultUser} />
+
+    
+        
+          <div className="w-10 h-10 rounded-full mr-3">
+            {
+              user && <img src={user.photoURL} alt="" />
+            }
           </div>
         </label>
 
@@ -84,3 +90,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

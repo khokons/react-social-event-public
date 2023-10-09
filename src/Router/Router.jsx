@@ -6,6 +6,8 @@ import ErrorPage from "../Components/ErrorPage/ErrorPage";
 import Register from "../pages/Register/Register";
 import DetailsInfo from "../Components/DetailsInfo/DetailsInfo";
 import PrivateRoute from "./PrivateRoute";
+import Reviews from "../pages/Reviews/Reviews";
+import EventPlaning from "../pages/EventPlaning/EventPlaning";
 
 
 
@@ -20,6 +22,19 @@ const router = createBrowserRouter([
             path: "/",
             element: <Home></Home>,
             loader: () => fetch("/cards.json")
+        },
+
+        {
+          path: "/reviews",
+          element: <PrivateRoute><Reviews></Reviews></PrivateRoute>
+
+        },
+
+
+        {
+          path: "/event",
+          element: <PrivateRoute><EventPlaning></EventPlaning></PrivateRoute>
+
         },
 
         {

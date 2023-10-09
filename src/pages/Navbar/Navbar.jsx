@@ -12,19 +12,19 @@ const Navbar = () => {
 
   const navLinks = (
     <>
-      <li>
+      <li className="uppercase">
         <NavLink to="/">Home</NavLink>
       </li>
-      <li>
-        <NavLink to="about">About</NavLink>
+      <li className="uppercase">
+        <NavLink to="reviews">Reviews</NavLink>
       </li>
-      <li>
-        <NavLink to="/contact">Contact</NavLink>
+      <li className="uppercase">
+        <NavLink to="/event">Event Planing</NavLink>
       </li>
-      <li>
+      <li className="uppercase">
         <NavLink to="/login">Login</NavLink>
       </li>
-      <li>
+      <li className="uppercase">
         <NavLink to="/register">Register</NavLink>
       </li>
     </>

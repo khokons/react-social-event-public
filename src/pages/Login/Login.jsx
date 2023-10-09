@@ -4,6 +4,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 
 
+
+
+
 const Login = () => {
 
 const {singIn} = useContext(AuthContext);
@@ -27,7 +30,7 @@ const [success, setSuccess] = useState('')
         .then(result =>{
           console.log(result.user);
           setSuccess('User Login Successfully')
-          navgate(location?.state ? location.state : "/login");
+          navgate(location?.state ? location.state : "/");
           
           
           
@@ -80,8 +83,12 @@ const [success, setSuccess] = useState('')
         <div className="form-control mt-6">
           <button className="btn btn-primary">Login</button>
         </div>
+     
       </form>
       <p className="text-center mt-4 text-black">Do not have account? <Link className="text-blue-700 font-bold" to="/register">Register</Link></p>
+      <div className="flex justify-center items-center mt-2">
+        <button className="btn">Google Login</button>
+      </div>
       {
         registerError && <p className='text-center mt-2 text-red-700'>{registerError}</p>
       }
@@ -94,3 +101,5 @@ const [success, setSuccess] = useState('')
 };
 
 export default Login;
+
+

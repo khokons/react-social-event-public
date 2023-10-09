@@ -1,6 +1,22 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 600,
+      duration: 1000,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+  }, []);
+
   return (
-    <footer className="footer footer-center p-10 bg-[#3F1D38] text-base text-white font-poppins rounded mt-10 mb-5">
+    <footer
+      data-aos="zoom-in"
+      className="footer footer-center p-10 bg-[#3F1D38] text-base text-white font-poppins rounded mt-10 mb-5"
+    >
       <nav className="grid grid-flow-col gap-4">
         <a className="link link-hover">Home</a>
         <a className="link link-hover">Login</a>

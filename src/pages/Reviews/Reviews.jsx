@@ -52,7 +52,11 @@ const Reviews = () => {
         </div>
         <div className="mb-6 p-0">
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-          Thank you so much for the most incredible event for Scarlette’s 3rdbirthday. The day was amazing and so brilliantly organised. We enjoyed just being able to sit back and watch our daughter enjoy every single moment rather than have to run around like we have in previous years.
+            Thank you so much for the most incredible event for Scarlette’s
+            3rdbirthday. The day was amazing and so brilliantly organised. We
+            enjoyed just being able to sit back and watch our daughter enjoy
+            every single moment rather than have to run around like we have in
+            previous years.
           </p>
         </div>
       </div>
@@ -90,7 +94,6 @@ const Reviews = () => {
                     type="radio"
                     name="rating-3"
                     className="mask mask-star-2 bg-orange-400"
-                  
                   />
                   <input
                     type="radio"
@@ -108,8 +111,11 @@ const Reviews = () => {
         </div>
         <div className="mb-6 p-0">
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-          I want to thank you so much for all of your help coordinating the wedding! Everything went amazingly well that day and I cannot express how appreciative we are for everything that you guys did for us! You have a hard job and you both do it very well! I will be sure to recommend you to others in the future!
-
+            I want to thank you so much for all of your help coordinating the
+            wedding! Everything went amazingly well that day and I cannot
+            express how appreciative we are for everything that you guys did for
+            us! You have a hard job and you both do it very well! I will be sure
+            to recommend you to others in the future!
           </p>
         </div>
       </div>
@@ -148,7 +154,6 @@ const Reviews = () => {
                     type="radio"
                     name="rating-4"
                     className="mask mask-star-2 bg-orange-400"
-                  
                   />
                   <input
                     type="radio"
@@ -159,13 +164,15 @@ const Reviews = () => {
               </div>
             </div>
             <p className="block font-sans text-base font-extrabold leading-relaxed text-blue-gray-900 antialiased">
-             Anniversary Review
+              Anniversary Review
             </p>
           </div>
         </div>
         <div className="mb-6 p-0">
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-          Thank you for being a part of our special day. · We appreciate you coming to celebrate with us. · Our wedding was so special, and your presence
+            Thank you for being a part of our special day. · We appreciate you
+            coming to celebrate with us. · Our wedding was so special, and your
+            presence
           </p>
         </div>
       </div>
@@ -180,7 +187,7 @@ const Reviews = () => {
           <div className="flex w-full flex-col gap-0.5">
             <div className="flex items-center justify-between">
               <h5 className="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-               Arnob Hasan
+                Arnob Hasan
               </h5>
               <div className="5 flex items-center gap-0">
                 <div className="rating">
@@ -214,13 +221,15 @@ const Reviews = () => {
               </div>
             </div>
             <p className="block font-sans text-base font-extrabold leading-relaxed text-blue-gray-900 antialiased">
-            Graduation Review
+              Graduation Review
             </p>
           </div>
         </div>
         <div className="mb-6 p-0">
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-          After you are showered with gifts, money, love, and support, show your gratitude with the perfect sayings for graduation thank you cards.
+            After you are showered with gifts, money, love, and support, show
+            your gratitude with the perfect sayings for graduation thank you
+            cards.
           </p>
         </div>
       </div>
@@ -248,7 +257,6 @@ const Reviews = () => {
                     type="radio"
                     name="rating-6"
                     className="mask mask-star-2 bg-orange-400"
-                    
                   />
                   <input
                     type="radio"
@@ -260,13 +268,11 @@ const Reviews = () => {
                     type="radio"
                     name="rating-6"
                     className="mask mask-star-2 bg-orange-400"
-                   
                   />
                   <input
                     type="radio"
                     name="rating-6"
                     className="mask mask-star-2 bg-orange-400"
-                    
                   />
                 </div>
               </div>
@@ -319,7 +325,6 @@ const Reviews = () => {
                     type="radio"
                     name="rating-7"
                     className="mask mask-star-2 bg-orange-400"
-                  
                   />
                   <input
                     type="radio"

@@ -1,7 +1,19 @@
 import { useLoaderData } from "react-router-dom";
 import ServiceCard from "./ServiceCard";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ServiceCards = () => {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 600,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }, []);
   const cardInfo = useLoaderData();
 
   return (
@@ -10,7 +22,7 @@ const ServiceCards = () => {
         Our Services
       </h2>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div data-aos="zoom-in" className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         {cardInfo.map((card) => (
           <ServiceCard key={card.id} card={card}></ServiceCard>
         ))}
